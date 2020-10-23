@@ -1,0 +1,23 @@
+{
+  "name": "skypack-package-check-test",
+  "version": "1.0.0",
+  "author": "Gregor Martynus (https://twitter.com/gr2m)",
+  "license": "MIT",
+  "devDependencies": {
+    "@skypack/package-check": "^0.1.0"
+  },
+  "exports": {
+    "import": "index.js"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "test"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/skypackjs/package-check"
+  },
+  "types": "index.d.ts"
+}

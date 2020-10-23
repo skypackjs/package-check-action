@@ -1,0 +1,11 @@
+name: Skypack Quality Score
+description: "Integrate Skypack's Quality Score check into your CI"
+branding:
+  icon: "check-square"
+  color: blue
+runs:
+  using: "node12"
+  main: "dist/index.js"
+inputs:
+  cwd:
+    description: "directory path to run the check in. Defaults to the repository's root folder"

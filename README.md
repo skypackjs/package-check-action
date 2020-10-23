@@ -1,5 +1,3 @@
-# 🚧 WORK IN PROGRESS - See [#1](github.com/gr2m/skypack-quality-score-action/pull/1)
-
 # Skypack Quality Score Action
 
 > Integrate Skypack's Quality Score check into your CI
@@ -24,7 +22,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: skypackjs/package-check@v1
+      - uses: gr2m/skypack-quality-score-action@v1
 ```
 
 ## Debugging

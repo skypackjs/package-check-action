@@ -1,0 +1,16 @@
+on: [push]
+name: Test
+jobs:
+  success:
+    name: "[TEST] README example"
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v1
+        with:
+          node-version: 12
+      - run: npm ci
+      - run: npm run build
+      - uses: ./
+        with:
+          cwd: test/success
