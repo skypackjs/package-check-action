@@ -1,5 +1,3 @@
-# 🚧 WORK IN PROGRESS - See [#1](github.com/gr2m/skypack-quality-score-action/pull/1)
-
 # Skypack Quality Score Action
 
 > Integrate Skypack's Quality Score check into your CI
