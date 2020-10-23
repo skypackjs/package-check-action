@@ -22,7 +22,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: skypackjs/package-check@v1
+      - uses: gr2m/skypack-quality-score-action@v1
 ```
 
 ## Debugging
