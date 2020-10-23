@@ -23,6 +23,9 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - uses: gr2m/skypack-quality-score-action@v1
+        # optional: set custom directory path to run the check in
+        with:
+          cwd: packages/my-package
 ```
 
 ## Debugging
