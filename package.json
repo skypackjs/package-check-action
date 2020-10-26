@@ -15,7 +15,7 @@
   "license": "ISC",
   "dependencies": {
     "@actions/core": "^1.2.4",
-    "@skypack/package-check": "^0.1.0"
+    "@skypack/package-check": "0.2.2"
   },
   "devDependencies": {
     "@semantic-release/git": "^9.0.0",
