@@ -7,7 +7,7 @@
 ## Usage
 
 ```yml
-Name: Skypack Package Score
+name: Skypack Package Score
 on:
   push:
     branches:
