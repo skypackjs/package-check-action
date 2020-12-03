@@ -2,7 +2,7 @@
 
 > Integrate Skypack's Quality Score check into your CI
 
-[![Build Status](https://github.com/gr2m/skypack-quality-score-action/workflows/Test/badge.svg)](https://github.com/gr2m/skypack-quality-score-action/actions)
+[![Build Status](https://github.com/skypackjs/package-check-action/workflows/Test/badge.svg)](https://github.com/skypackjs/package-check-action/actions)
 
 ## Usage
 
@@ -22,7 +22,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: gr2m/skypack-quality-score-action@v1
+      - uses: skypackjs/package-check-action@v1
         # optional: set custom directory path to run the check in
         with:
           cwd: packages/my-package
